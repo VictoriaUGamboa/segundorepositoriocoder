@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Nuestras variedades de tortas para cada uno de tus momentos">
+    <title> Tortas | Victoria Regia</title>
+
+    <!-- CSS BS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/estilo.css">
+</head>
+
+
+<body>
+
+    <body class="container-fluid">
+        <!-- HEADER CON BS -->
+        <!-- El navbar va a ser el mismo que para la página de inicio, solamente que va a cambiar el botón de la página TORTAS, o sea va a ser éste el que aparezca en negrita porque es el que está activo -->
+        <header class="navbar navbar-expand-lg encabezado">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">
+                    <img class="vicLogo" src="img/logomodificado.jpg" alt="logo victoria regia">
+                </a>
+                <!-- BOTÓN MENÚ HAMBURGUESA -->
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <nav class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav fuentesNav">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">INICIO</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">TORTAS</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">COOKIES Y ALFAJORES</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">CONTACTO</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">PEDIDOS</a>
+                        </li>
+
+                    </ul>
+                </nav>
+            </div>
+        </header>
+
+        <!-- CAROUSEL de fotos de tortas-->
+        <div id="carouselExample" class="carousel slide">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="img/fotoslidetorta1.JPG" class="d-block w-100" alt="torta letter">
+                </div>
+                <div class="carousel-item">
+                    <img src="img/fotoslidetorta2.JPG" class="d-block w-100" alt="tarta frutilla">
+                </div>
+                <div class="carousel-item">
+                    <img src="img/fotoslidetorta3.JPG" class="d-block w-100" alt="torta rogel">
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+
+        <!-- PRODUCTOS -->
+        <div class="tituloTortas">
+            <p>TORTAS DE LA HOSTIA</p>
+        </div>
+
+
+
+        <!-- TORTAS-->
+
+        <div class="row text mt-5">
+
+            <div class="col-xl-12 text-center">
+                <div class="descripcionTortas">
+                    <p class="text text-center estiloTortas">Conocé nuestra variedad de Tortas!</p>
+                    <p class="infoTortas"> Podrás elegir la torta que más se adecúe a tus momento especial, y realizar
+                        todas las consultas que necesites! <br> Acordate que los presupuestos de las mismas se arreglan
+                        por privado.
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <!-- CARDS PRODUCTOS -->
+        <div class="row text mt-5">
+
+            <!-- le saqué el ancho que viene asignado y agrego el sistema de grilla de bs-->
+            <div class="card col-xl-3 col-md-6 col-sm-12 text-center">
+                <img src="img/collagetortasflores.JPG" class="card-img-top" alt="tortas flores">
+                <div class="card-body">
+                    <h3 class="card-title">Tortas con diseño floral</h3>
+                    <p class="card-text">Pueden ser realizadas con buttercream o con pastillaje comestible .</p>
+                    <!-- Button trigger modal -->
+                    <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                        Consultá tus opciones!
+                    </button>
+                </div>
+            </div>
+
+
+
+            <div class="card col-xl-3 col-md-6 col-sm-12 text-center">
+                <img src="img/collagetortasfloresinfantiles.JPG" class="card-img-top" alt="Tortas infantiles">
+                <div class="card-body">
+                    <h3 class="card-title">Tortas con temática infantil</h3>
+                    <p class="card-text">Pueden ser realizadas de la temática y colores que elijas, con buttercream o
+                        forradas con pasta para tortas.</p>
+                    <!-- Button trigger modal -->
+                    <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                        Consultá tus opciones!
+                    </button>
+                </div>
+            </div>
+
+
+            <div class="card col-xl-3 col-md-6 col-sm-12 text-center">
+                <img src="img/collagetortasnumber.jpg" class="card-img-top" alt="number y letter cakes">
+                <div class="card-body">
+                    <h3 class="card-title">Tortas con forma de número o letra</h3>
+                    <p class="card-text">Podrás elegir que número o que letra, de la cantidad de dígitos que desees.
+                        Colores a elección.</p>
+                    <!-- Button trigger modal -->
+                    <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                        Consultá tus opciones!
+                    </button>
+                </div>
+            </div>
+
+            <div class="card col-xl-3 col-md-6 col-sm-12 text-center">
+                <img src="img/collegetortasclasicas.jpg" class="card-img-top" alt="tortas clásicas">
+                <div class="card-body">
+                    <h3 class="card-title">Tortas clásicas con un toque especial</h3>
+                    <p class="card-text">Para todos los días, o para algún evento en particular, también pueden ser
+                        personalizadas de la manera en que más te guste.</p>
+                    <!-- Button trigger modal -->
+                    <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                        Consultá tus opciones!
+                    </button>
+                </div>
+            </div>
+
+        </div>
+
+        <!-- MODAL -->
+
+
+        <!-- Modal -->
+        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h1 class="modal-title fs-5" id="exampleModalLabel">Variedades</h1>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        Escribime un dm para más info!
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancelar</button>
+                        <button type="button" class="btn btn-primary">Aceptar</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <!-- FOOTER -->
+        <div class="card-footer">
+            <div class="card-header">
+                Términos, condiciones y políticas de privacidad
+            </div>
+            <div class="card-body">
+                <blockquote>
+                    <p class="productosArtesanales">Productos artesanales de autor</p>
+                    <footer class="blockquote-footer">Todos los derechos reservados,<cite title="Source Title"> ¡no
+                            copiar!</cite>
+                    </footer>
+                </blockquote>
+            </div>
+        </div>
+
+
+
+        <!-- JS BS -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+            crossorigin="anonymous"></script>
+    </body>
+
+</html>

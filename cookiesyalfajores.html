@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Nuestras cookies y alfajores para todos los gustos">
+    <title> Cookies y Alfajores | Victoria Regia</title>
+
+    <!-- CSS BS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/estilo.css">
+</head>
+
+
+<body>
+
+    <body class="container-fluid">
+        <!-- HEADER CON BS -->
+        <!-- El navbar va a ser el mismo que para la página de inicio, solamente que va a cambiar el botón de la página COOKIES Y ALFAJORES, o sea va a ser éste el que aparezca en negrita porque es el que está activo -->
+        <header class="navbar navbar-expand-lg encabezado">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">
+                    <img class="vicLogo" src="img/logomodificado.jpg" alt="logo victoria regia">
+                </a>
+                <!-- BOTÓN MENÚ HAMBURGUESA -->
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <nav class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav fuentesNav">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">INICIO</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">TORTAS</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">COOKIES Y ALFAJORES</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">CONTACTO</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">PEDIDOS</a>
+                        </li>
+
+                    </ul>
+                </nav>
+            </div>
+        </header>
+
+        <!-- CAROUSEL de fotos de cookies y alfajores-->
+        <div id="carouselExample" class="carousel slide">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="img/cookieschocolateslide.jpg" class="d-block w-100" alt="Cookies chocolate">
+                </div>
+                <div class="carousel-item">
+                    <img src="img/alfajoresgourmetslide.JPG" class="d-block w-100" alt="alfajores limon">
+                </div>
+                <div class="carousel-item">
+                    <img src="img/cookiespersonalizadasslide2.jpg" class="d-block w-100" alt="cookies personalizadas">
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+
+        <!-- PRODUCTOS -->
+        <div class="tituloTortas">
+            <p>COOKIES Y ALFAJORES MAJESTUOSOS</p>
+        </div>
+
+
+
+        <!-- COOKIES Y ALFAJORES-->
+
+        <div class="row text mt-5">
+
+            <div class="col-xl-12 text-center">
+                <div class="descripcionCya">
+                    <p class="text text-center estiloCya">Conocé nuestra variedad de cookies y alfajores!</p>
+                    <p class="infoCya"> Podrás elegir entre una amplia cantidad de opciones, de acuerdo a tu gusto y a
+                        tu necesidad! <br> Acordate que los presupuestos de los mismos se arreglan
+                        por privado.
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <!-- CARDS PRODUCTOS -->
+        <div class="row text mt-5">
+
+            <!-- le saqué el ancho que viene asignado y agrego el sistema de grilla de bs-->
+            <div class="card col-xl-3 col-md-6 col-sm-12 text-center">
+                <img src="img/collagecookiesclasicas.JPG" class="card-img-top" alt="cookies clasicas">
+                <div class="card-body">
+                    <h3 class="card-title">Cookies clásicas para siempre</h3>
+                    <p class="card-text">Elegí la cantidad y los gustos que quieras.</p>
+                    <!-- Button trigger modal -->
+                    <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                        Consultá tus opciones!
+                    </button>
+                </div>
+            </div>
+
+
+
+            <div class="card col-xl-3 col-md-6 col-sm-12 text-center">
+                <img src="img/collagecookiespersonalizadas.JPG" class="card-img-top" alt="cookies personalizadas">
+                <div class="card-body">
+                    <h3 class="card-title">Cookies para todos tus eventos</h3>
+                    <p class="card-text">Pueden ser realizadas de la temática y colores que elijas, decoradas con
+                        pastillaje comestible.
+                        <!-- Button trigger modal -->
+                        <button type="button" class="btn btn-primary" data-bs-toggle="modal"
+                            data-bs-target="#exampleModal">
+                            Consultá tus opciones!
+                        </button>
+                </div>
+            </div>
+
+
+            <div class="card col-xl-3 col-md-6 col-sm-12 text-center">
+                <img src="img/collagealfajoresmarplatenses.JPG" class="card-img-top" alt="alfajores marplatenses">
+                <div class="card-body">
+                    <h3 class="card-title">Alfajores clásicos marplatenses</h3>
+                    <p class="card-text">Llevá la cantidad que sea necesaria para que no te falten nunca en tu mesa,
+                        pueden ser tamaño pequeño, mediano o grande.</p>
+                    <!-- Button trigger modal -->
+                    <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                        Consultá tus opciones!
+                    </button>
+                </div>
+            </div>
+
+            <div class="card col-xl-3 col-md-6 col-sm-12 text-center">
+                <img src="img/collagealfajoresgourmet.jpg" class="card-img-top" alt="alfajores gourmet">
+                <div class="card-body">
+                    <h3 class="card-title">Alfajores tentación gourmet</h3>
+                    <p class="card-text">Especiales para cuando querés darte un gusto inhumano o para sorprender a los
+                        que más querés. Hay muchas variedades disponibles, no te los pierdas.</p>
+                    <!-- Button trigger modal -->
+                    <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                        Consultá tus opciones!
+                    </button>
+                </div>
+            </div>
+
+        </div>
+
+        <!-- MODAL -->
+
+
+        <!-- Modal -->
+        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h1 class="modal-title fs-5" id="exampleModalLabel">Variedades</h1>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        Escribime un dm para más info!
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancelar</button>
+                        <button type="button" class="btn btn-primary">Aceptar</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <!-- FOOTER -->
+        <div class="card-footer">
+            <div class="card-header">
+                Términos, condiciones y políticas de privacidad
+            </div>
+            <div class="card-body">
+                <blockquote>
+                    <p class="productosArtesanales">Productos artesanales de autor</p>
+                    <footer class="blockquote-footer">Todos los derechos reservados,<cite title="Source Title"> ¡no
+                            copiar!</cite>
+                    </footer>
+                </blockquote>
+            </div>
+        </div>
+
+
+
+        <!-- JS BS -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+            crossorigin="anonymous"></script>
+    </body>
+
+</html>
