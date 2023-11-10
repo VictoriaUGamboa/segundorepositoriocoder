@@ -1,0 +1,11 @@
+/*FOOTER*/
+
+.card-footer {
+    @include footer;
+}
+
+.productosArtesanales {
+    font-weight: 400;
+    text-transform: uppercase;
+    font-size: 20px;
+}

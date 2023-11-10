@@ -1,0 +1,72 @@
+/*INFO INTRODUCTORIA*/
+
+.quienesSomos {
+    border-top: 30px;
+    border: 2px solid $verde;
+    border-radius: 10px;
+    list-style: none;
+    display: inline-block;
+    margin: 0 10px;
+    padding: 20px 20px 20px 30px;
+}
+
+.estiloNosotros {
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+.infoNuestra {
+    font-weight: bold;
+    font-size: 20px;
+    background-color: $rosa;
+    color: black;
+    text-align: center;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.graciasTotales {
+    font-size: 1.5rem;
+    text-align: center;
+    font-weight: bold;
+}
+
+/*TORTAS*/
+
+.tituloTortas {
+    background-color: $verde;
+    color: white;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    padding: 15px;
+    font-size: 25px;
+    margin-top: 8px;
+}
+
+.descripcionTortas {
+    border-top: 30px;
+    border: 2px solid $verde;
+    border-radius: 10px;
+    list-style: none;
+    display: inline-block;
+    margin: 0 10px;
+    padding: 20px 20px 20px 30px;
+    list-style: none;
+    display: inline-block;
+}
+
+.estiloTortas {
+    font-weight: bold;
+    font-size: 1.5rem;
+    background-color: $rosa;
+    color: black;
+    text-align: center;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.infoTortas {
+    font-size: 20px;
+    text-align: center;
+}

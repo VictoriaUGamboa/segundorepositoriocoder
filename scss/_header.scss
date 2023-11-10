@@ -1,0 +1,24 @@
+/*LOGO*/
+
+.vicLogo {
+    width: 230px;
+    border-radius: 20px;
+}
+
+/*ENCABEZADO*/
+
+.encabezado {
+    border-top: 20px solid $rosa;
+    background-color: $natural;
+}
+
+.fuentesNav {
+    font-size: 25px;
+    font-weight: 500;
+
+    a:hover {
+        background-color: $verde;
+        color: white;
+        border-radius: 10px;
+    }
+}
